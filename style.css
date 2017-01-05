@@ -21,6 +21,8 @@ h1 {
     vertical-align: top;
 }
 
+
+
 body {
   font: normal normal 400 1rem/1.5 "Segoe UI", "Helvetica Neue", "DejaVu Sans", Helvetica, Arial, sans-serif;
 }
@@ -32,6 +34,7 @@ body {
   margin-bottom:50px;
   margin-top:50px;
 }
+
 .vert > canvas, .vert > ol {
   display:inline-block
   margin-bottom:50px;

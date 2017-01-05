@@ -42,7 +42,7 @@
 
 </div>
 
-<div id="emoji" class="chart vert">
+<div id="estadistica1" class="chart vert">
   <canvas id="canPie" width="300" height="200" data-values='40, 30, 20, 60, 10, 50'>
     This browser does not support HTML5 Canvas.
   </canvas>
@@ -55,7 +55,7 @@
     <li class="key six">:ribbon:</li>
   </ol>
 </div>
-<div class="chart">
+<div id="estadistica2" class="chart">
   <canvas id="canPeak" width="300" height="200" data-values='100, 30, 20, 60, 10, 50'>
     This browser does not support HTML5 Canvas.
   </canvas>
@@ -68,7 +68,7 @@
     <li class="key six">Six</li>
   </ol>
 </div>
-<div class="chart">
+<div id="estadistica3" class="chart">
   <canvas id="canBar" width="300" height="200" data-values='0.5, 25, 50, 80, 0, 50'>
     This browser does not support HTML5 Canvas.
   </canvas>
@@ -184,7 +184,9 @@ drawBarChart('canBar');
 
 <script type="text/javascript">
 	
-	emojify.run(document.getElementById('emoji'))
+	emojify.run(document.getElementById('estadistica1'))
+  emojify.run(document.getElementById('estadistica2'))
+  emojify.run(document.getElementById('estadistica3'))
 
     emojify.run(document.getElementById('emoji_input'))
     emojify.run(document.getElementById('graficas'))
