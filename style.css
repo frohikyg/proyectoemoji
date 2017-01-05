@@ -1,0 +1,12 @@
+body {
+  font-size: 150%;
+  margin: 1em;
+}
+
+.emoji {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    vertical-align: top;
+}
