@@ -1,6 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&subset=devanagari,latin-ext');
+
 body {
   font-size: 150%;
   margin: 1em;
+  font-family:'Poppins', sans-serif;
+}
+h1 {
+	color:blue;
+  font-size: 150%;
+  margin: 1em;
+  font-family:'Poppins', sans-serif;
 }
 
 .emoji {
