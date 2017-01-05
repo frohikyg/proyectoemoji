@@ -7,16 +7,59 @@ body {
   font-family:'Poppins', sans-serif;
 }
 h1 {
-	color:blue;
   font-size: 150%;
   margin: 1em;
   font-family:'Poppins', sans-serif;
+  text-align: center;
 }
 
 .emoji {
-    width: 2em;
-    height: 2em;
+    width: 1em;
+    height: 1em;
     display: inline-block;
     margin-bottom: 0.5em;
     vertical-align: top;
 }
+
+body {
+  font: normal normal 400 1rem/1.5 "Segoe UI", "Helvetica Neue", "DejaVu Sans", Helvetica, Arial, sans-serif;
+}
+
+.chart {
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom:50px;
+  margin-top:50px;
+}
+.vert > canvas, .vert > ol {
+  display:inline-block
+  margin-bottom:50px;
+
+}
+.horiz > li {
+  display: inline;
+  padding-right: 20px;
+}
+.legend {
+  vertical-align:top;
+  padding-left:15px;
+  list-style: none;
+}
+.key {
+  position:relative;
+}
+.key:before {
+  content:"";
+  position:absolute;
+  top:35%;
+  left:-15px;
+  width:10px;
+  height:10px;
+}
+.one:before{background:rgb(236, 208, 120)}
+.two:before{background:rgba(217, 91, 67, 0.7)}
+.three:before{background:rgba(192, 41, 66, 0.7)}
+.four:before{background:rgba(84, 36, 55, 0.7)}
+.five:before{background:rgba(83, 119, 122, 0.7)}
+.six:before{background:rgba(119, 146, 174, 0.7)}
